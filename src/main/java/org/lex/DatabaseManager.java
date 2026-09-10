@@ -22,7 +22,7 @@ public class DatabaseManager {
 
 
     private Connection localConn;
-    private String     currentLocalPath; // путь к файлу, открытому сегодня
+    private String     currentLocalPath; 
 
 
     private Connection remoteConn;
