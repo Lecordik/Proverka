@@ -31,7 +31,7 @@ public class MainWindow extends JFrame {
         return new Font(Font.SANS_SERIF, style, size);
     }
 
-    // Обычный шрифт для текста (без иероглифов)
+
     static Font textFont(int size) {
         String[] candidates = { "Helvetica Neue", "Segoe UI", "Ubuntu", "Dialog" };
         for (String name : candidates) {
